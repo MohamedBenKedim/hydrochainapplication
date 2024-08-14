@@ -1,3 +1,5 @@
+'use client'
+
 import { FaLocationArrow } from 'react-icons/fa'
 import MagicButton from './ui/MagicButton'
 import { TextGenerateEffect } from './ui/TextGenerateEffect'

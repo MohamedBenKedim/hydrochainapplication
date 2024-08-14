@@ -1,3 +1,5 @@
+'use client'
+
 import Image from 'next/image'
 import Logo from "@/public/LogoNHC1.png";
 import { FaFacebook, FaYoutube, FaInstagram, FaTwitter, FaLinkedin} from "react-icons/fa";

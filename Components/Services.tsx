@@ -1,3 +1,5 @@
+'use client'
+
 import React from 'react'
 import { services } from '@/Data/index'
 import { Button} from "@/Components/ui/MovingBorders";
