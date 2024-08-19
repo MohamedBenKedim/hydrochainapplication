@@ -29,10 +29,10 @@ import {
 } from '@heroicons/react/24/outline'
 import { ChevronDownIcon, PhoneIcon, PlayCircleIcon} from '@heroicons/react/20/solid'
 
-const products = [
-  { name: 'Our Mission', description: 'What we plan to achieve', href: '/about', icon: MapPinIcon },
-  { name: 'Whitepaper', description: "Nebra Hydrochain Whitepaper", href: '#', icon: DocumentCheckIcon },
-  { name: 'Our Team', description: 'Your customers’ data will be safe and secure', href: '#', icon: UsersIcon },
+const about = [
+  { name: 'Our Mission', description: 'What we plan to achieve', href: '/mission', icon: MapPinIcon },
+  { name: 'Whitepaper', description: "Nebra Hydrochain Whitepaper", href: '/whitepaper', icon: DocumentCheckIcon },
+  { name: 'Our Team', description: 'Your customers’ data will be safe and secure', href: '/team', icon: UsersIcon },
   
 ]
 const callsToAction = [
@@ -44,13 +44,13 @@ export default function Nav() {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false)
 
   return (
-    <header className="">
+    <header className=" bg-black-100">
       <nav aria-label="Global" className="mx-auto flex max-w-7xl items-center justify-between p-6 lg:px-8">
         <div className="flex lg:flex-1">
-          <a href="#" className="-m-1.5 p-1.5 flex items-center ">
+          <a href="/" className="-m-1.5 p-1.5 flex items-center ">
             <span className="sr-only">Nebra Hydrochain</span>
             <Image src={Logo} alt="NebraHydroChain Logo" height={80} width={80} />
-            <p className="font-bold text-inherit">Nebra Hydrochain</p>
+            <p className="font-bold text-inherit  text-white">Nebra Hydrochain</p>
           </a>
         </div>
         <div className="flex lg:hidden">
@@ -64,7 +64,7 @@ export default function Nav() {
           </button>
         </div>
         <PopoverGroup className="hidden lg:flex lg:gap-x-12">
-        <a href="#" className="text-sm font-semibold leading-6 text-White">
+        <a href="/" className="text-sm font-semibold leading-6  text-white">
             Home
           </a>
 
@@ -79,7 +79,7 @@ export default function Nav() {
               className="absolute -left-8 top-full z-20 mt-3 w-screen max-w-md overflow-hidden rounded-3xl bg-black-400 shadow-lg ring-1 ring-gray-900/5 transition data-[closed]:translate-y-1 data-[closed]:opacity-0 data-[enter]:duration-200 data-[leave]:duration-150 data-[enter]:ease-out data-[leave]:ease-in"
             >
               <div className="p-4">
-                {products.map((item) => (
+                {about.map((item) => (
                   <div
                     key={item.name}
                     className="group relative flex items-center gap-x-6 rounded-lg p-4 text-sm leading-6 hover:bg-black-200"
@@ -112,13 +112,13 @@ export default function Nav() {
             </PopoverPanel>
           </Popover>
 
-          <a href="#partners" className="text-sm font-semibold leading-6 text-White">
+          <a href="/partners" className="text-sm font-semibold leading-6  text-white">
             Partners
           </a>
-          <a href="#services" className="text-sm font-semibold leading-6 text-White">
+          <a href="/services" className="text-sm font-semibold leading-6  text-white">
             Services
           </a>
-          <a href="#process" className="text-sm font-semibold leading-6 text-white">
+          <a href="/solution" className="text-sm font-semibold leading-6 text-white">
             Solution
           </a>
           <a href="#footer1" className="text-sm font-semibold leading-6 text-white">
@@ -135,7 +135,7 @@ export default function Nav() {
         <div className="fixed inset-0 z-10" />
         <DialogPanel className="fixed inset-y-0 right-0 z-10 w-full overflow-y-auto bg-black-100 px-6 py-6 sm:max-w-sm sm:ring-1 sm:ring-gray-900/10">
           <div className="flex items-center justify-between">
-            <a href="#" className="-m-1.5 p-1.5">
+            <a href="/" className="-m-1.5 p-1.5">
               <span className="sr-only">Your Company</span>
               <Image src={Logo} alt="NebraHydroChain Logo" height={80} width={80} />
             </a>
@@ -153,11 +153,11 @@ export default function Nav() {
               <div className="space-y-2 py-6">
                 <Disclosure as="div" className="-mx-3">
                   <DisclosureButton className="group flex w-full items-center justify-between rounded-lg py-2 pl-3 pr-3.5 text-base font-semibold leading-7 text-gray-700 hover:bg-gray-900">
-                    Product
+                    About
                     <ChevronDownIcon aria-hidden="true" className="h-5 w-5 flex-none group-data-[open]:rotate-180" />
                   </DisclosureButton>
                   <DisclosurePanel className="mt-2 space-y-2">
-                    {[...products, ...callsToAction].map((item) => (
+                    {about.map((item) => (
                       <DisclosureButton
                         key={item.name}
                         as="a"
@@ -170,22 +170,22 @@ export default function Nav() {
                   </DisclosurePanel>
                 </Disclosure>
                 <a
-                  href="#"
+                  href="/partners"
                   className="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-gray-700 hover:bg-gray-900"
                 >
-                  Features
+                  Partners
                 </a>
                 <a
-                  href="#"
+                  href="/services"
                   className="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-gray-700 hover:bg-gray-900"
                 >
-                  Marketplace
+                  Services
                 </a>
                 <a
-                  href="#"
+                  href="/solution"
                   className="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-gray-700 hover:bg-gray-900"
                 >
-                  Company
+                  Solution
                 </a>
               </div>
               {/* <div className="py-6">
