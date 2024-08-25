@@ -3,13 +3,14 @@
 import  Hero  from "@/Components/Hero";
 import Partners from "@/Components/Partners";
 import { navItems } from "@/Data";
-import Services from "@/Components/Services";
+import Solution from "@/Components/Solution";
 import Business from "@/Components/Business";
 import Footer from "@/Components/Footer";
 import Header1 from "@/Components/Header1";
 import Navbar from "@/Components/Navbar";
 import Footer1 from "@/Components/Footer1";
 import Newsletter from "@/Components/Newsletter";
+import Architecture from "@/Components/Architecture";
 
 
 export default function Home() {
@@ -20,7 +21,8 @@ export default function Home() {
         <Hero />
         <Partners />
         <Business />
-        <Services />
+        <Solution />
+        <Architecture />
         <Newsletter />
         <br />
       </div>

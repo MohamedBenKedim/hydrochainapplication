@@ -32,7 +32,7 @@ const Footer = () => {
                 <div className="min-w-[200px] h-auto flex flex-col items-center justify-start">
                 <div className="flex items-center ">
                     <Image src={Logo} alt="Saas Logo" height={80} width={80} />
-                    <p className="font-bold text-inherit">Nebra Hydrochain</p>
+                    <p className="font-bold text-inherit">Hydro-E Blocks</p>
 
                 </div>
                 </div>
@@ -95,7 +95,7 @@ const Footer = () => {
                     </p>
                     <p className="flex flex-row items-center my-[15px] cursor-pointer">
                       
-                        <span className="text-[15px] ml-[6px]">Email: contact@nebrahydrochain.com</span>    
+                        <span className="text-[15px] ml-[6px]">Email: contact@hydroeblocks.com</span>    
                     </p>
                     {/* <p className="flex flex-row items-center my-[15px] cursor-pointer">
                   
@@ -105,7 +105,7 @@ const Footer = () => {
             </div>
 
             <div className="mb-[20px] text-[15px] text-center py-10">
-            &copy; 2024 Nebra HydroChain, Inc, All rights reserved.
+            &copy; 2024 Hydro-E Blocks, Inc, All rights reserved.
             </div>
         </div>
     </div>

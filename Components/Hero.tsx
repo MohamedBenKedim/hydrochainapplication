@@ -17,9 +17,9 @@ const Hero = () => {
                 </h2>
                 <TextGenerateEffect 
                     className='text-center text-[40px] md:text-5xl lg:text-6xl'
-                    words='Innovative Blockchain for Low-Carbon Hydrogen'
+                    words='Innovative Blockchain & AI Solution for low Carbon Hydrogen'
                 />
-                <p className='text-center md:-tracking-wider mb:4 text-sm md:text-lg lg:text-2xl'>Nebra: Building a sustainable future through blockchain</p>
+                <p className='text-center md:-tracking-wider mb:4 text-sm md:text-lg lg:text-2xl'>Hydro-E Blocks : Building a sustainable future through blockchain</p>
                 <a href="#about">
                     <MagicButton 
                     title='Explore'

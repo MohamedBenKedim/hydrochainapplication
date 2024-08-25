@@ -10,7 +10,7 @@ const Partners = () => {
     <div>
         <div className='py-20 gap-6' id='partners'>
             <h1 className='heading'>
-                <span className='text-purple'>Nebra Solution</span>
+                <span className='text-purple'>Hydro-E Blocks Solution</span>
             </h1> <br />
             <p className='text-center md:-tracking-wider mb:4 text-sm md:text-lg lg:text-2xl'>Energy Transition : Low-Carbon Hydrogen</p>
             <div className="flex items-center justify-center gap-2 py-5">

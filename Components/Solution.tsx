@@ -5,11 +5,11 @@ import { services } from '@/Data/index'
 import { Button} from "@/Components/ui/MovingBorders";
 import { BiBorderRadius } from 'react-icons/bi';
 import Image from 'next/image';
-const Services = () => {
+const Solution= () => {
   return (
     <section id='process'>
     <div className='py-20' >
-            <h6 className='heading'>
+            <h6 className='heading py-10'>
             <span className='text-purple'> Solution</span>
             </h6>
             <div className='w-full mt-12 grid lg:grid-cols-4 grid-cols-1 gap-10'>
@@ -31,4 +31,4 @@ const Services = () => {
   )
 }
 
-export default Services
+export default Solution

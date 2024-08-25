@@ -1,7 +1,7 @@
 'use client'
 
 import Image from 'next/image'
-import Logo from "@/public/LogoNHC1.png";
+import Logo from "@/public/Hydro-E Blocks_alt_STK.png";
 import { FaFacebook, FaYoutube, FaInstagram, FaTwitter, FaLinkedin} from "react-icons/fa";
 
 const Footer1 = () => {
@@ -12,8 +12,8 @@ const Footer1 = () => {
       <div>
         <div className="flex items-center ">
             <a className="flex items-center " href='/'>
-              <Image src={Logo} alt="Saas Logo" height={80} width={80} />
-              <p className="font-bold text-inherit  text-white">Nebra Hydrochain</p>
+              <Image src={Logo} alt="Saas Logo" height={100} width={100} />
+              
             </a>
         </div>
         <p className="mt-4 max-w-xs text-gray-500">
@@ -203,7 +203,7 @@ const Footer1 = () => {
             </li>
 
             <li>
-              <a href="#" className="text-gray-500 transition hover:opacity-75"> Email : contact@nebrahydrochain.com </a>
+              <a href="#" className="text-gray-500 transition hover:opacity-75"> Email : contact@hydroeblocks.com </a>
             </li>
 
             {/* <li>
@@ -215,7 +215,7 @@ const Footer1 = () => {
       </div>
     </div>
     <hr />
-    <p className="text-md text-gray-500">&copy; 2024.Nebra Hydrochain. All rights reserved.</p>
+    <p className="text-md text-gray-500">&copy; 2024.Hydro-E Blocks. All rights reserved.</p>
   </div>
 </footer>
 

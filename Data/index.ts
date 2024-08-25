@@ -220,21 +220,21 @@ export const navItems = [
   export const features = [
     {
       id: "feature-1",
-      icon: "/certification.png",
+      icon: "/prize.png",
       title: "Certification",
       content:
-        "We record in the Blockchain the Carbon Intensity Level Hydrogen produced. ",
+        "We record in the Blockchain the Carbon Intensity Level Hydrogen produced.",
     },
     {
       id: "feature-2",
-      icon: "/marketplace.png",
+      icon: "/protect.png",
       title: "Marketplace",
       content:
         " We guarantee the security of transactions involving generated Hydrogen Credits.",
     },
     {
       id: "feature-3",
-      icon: "/optimisation.png",
+      icon: "/increase.png",
       title: "Optimization",
       content:
         "We imporove your Value Chain Linkages through a machine learning process .",

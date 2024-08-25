@@ -16,7 +16,7 @@ const FeatureCard: React.FC<FeatureCardProps> = ({ icon, title, content, index,}
     <section id='services'>
     <div className={`flex flex-row p-6 rounded-[20px] ${index !== features.length - 1 ? "mb-6" : "mb-0"} feature-card`}>
       <div className={`w-[64px] h-[64px] rounded-full ${styles.flexCenter} bg-dimBlue`}>
-        <img src={icon} alt={title} className="w-[100%] h-[100%] object-contain" />
+        <img src={icon} alt={title} className="w-[100%] h-[100%] object-contain" style={{color:"#74C0FC",}} />
       </div>
       <div className="flex-1 flex flex-col ml-3">
         <h4 className="font-poppins font-semibold text-white text-[18px] leading-[23.4px] mb-1">
@@ -45,9 +45,9 @@ const Business = () => {
             <p className={`${styles.paragraph} max-w-[470px] mt-5`}>
             Streamline the verification and allocation of low-carbon hydrogen credits using blockchain technology.
             </p>
-            <a href="#">
+            <a href="/services">
             <MagicButton 
-                    title='Get Started'
+                    title='Learn more'
                     icon={<FaLocationArrow/>}
                     />
             </a>

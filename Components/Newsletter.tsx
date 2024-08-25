@@ -5,8 +5,10 @@ export default function Newsletter() {
   <div className="mx-auto max-w-screen-xl px-4 pb-8 pt-16 sm:px-6 lg:px-8">
     <div className="mx-auto max-w-md">
       <h1 className='text-center text-xl md:text-2xl font-bold text-purple'>
-      Join our community and receive exclusive updates by signing up for our newsletter.
+      Join our community 
       </h1>
+      <br />
+      <p> Receive exclusive updates by signing up for our newsletter.</p>
 
       <form className="mt-6">
       <div className="mt-6 flex max-w-md gap-x-4">
