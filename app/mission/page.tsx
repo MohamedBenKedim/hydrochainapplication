@@ -11,7 +11,7 @@ export default function mission() {
           <br />
           <p className='text-gray-400 text-xl'>We are a team of students conducting research on Blockchain technology 
             usage in the Low-Carbon Hydrogen Industry. Our project, Hydro-E Blocks, aims to track and certify green 
-            hydrogen and CO2 emissions. We're currently seeking specific use cases to run pilot projects that 
+            hydrogen and CO2 emissions. We are currently seeking specific use cases to run pilot projects that 
             demonstrate how blockchain can provide a cost-effective and sustainable solution for the hydrogen industry.</p>
         </div>
         <br />     
