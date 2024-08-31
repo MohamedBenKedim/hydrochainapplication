@@ -1,7 +1,7 @@
 'use client'
 
 import Image from 'next/image'
-import Logo from "@/public/Hydro-E Blocks_alt_STK.png";
+import Logo from "@/public/Hydro-E Blocks_alt_LND.png";
 import { FaFacebook, FaYoutube, FaInstagram, FaTwitter, FaLinkedin} from "react-icons/fa";
 
 const Footer1 = () => {
@@ -12,7 +12,7 @@ const Footer1 = () => {
       <div>
         <div className="flex items-center ">
             <a className="flex items-center " href='/'>
-              <Image src={Logo} alt="Saas Logo" height={100} width={100} />
+              <Image src={Logo} alt="Saas Logo" height={170} width={170} />
               
             </a>
         </div>
@@ -21,7 +21,7 @@ const Footer1 = () => {
         </p>
 
         <ul className="mt-8 flex gap-6">
-          <li>
+          {/* <li>
             <a
               href="#"
               rel="noreferrer"
@@ -56,7 +56,7 @@ const Footer1 = () => {
                 />
               </svg>
             </a>
-          </li>
+          </li> */}
 
           <li>
             <a
@@ -87,7 +87,7 @@ const Footer1 = () => {
             </a>
           </li>
 
-          <li>
+          {/* <li>
             <a
               href="#"
               rel="noreferrer"
@@ -104,7 +104,7 @@ const Footer1 = () => {
                 />
               </svg>
             </a>
-          </li>
+          </li> */}
 
           {/* <li>
             <a
@@ -199,7 +199,7 @@ const Footer1 = () => {
 
           <ul className="mt-6 space-y-4 text-md">
             <li>
-            <p className="text-sm text-gray-500"> Phone : <br /> (+216) 77 77 77 77 </p>
+            <p className="text-sm text-gray-500"> Phone : <br /> +1 (928) 310-2871 </p>
             </li>
 
             <li>

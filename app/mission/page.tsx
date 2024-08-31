@@ -9,8 +9,10 @@ export default function mission() {
         <div className='mx-auto mt-20 flex flex-col items-start max-w-6xl px-6'>
           <h1 className='heading text-white-100'>About Us</h1>
           <br />
-          <p className='text-gray-400 text-xl'>We are a team of students conducting research on sustainable energy solutions, specifically focusing on blockchain technology. Our project, Hydro-E Blocks, aims to track and certify green hydrogen and CO2 emissions. We are currently seeking specific use cases to run pilot projects that demonstrate 
-            how blockchain can provide a cost-effective and sustainable solution for the hydrogen industry.</p>
+          <p className='text-gray-400 text-xl'>We are a team of students conducting research on Blockchain technology 
+            usage in the Low-Carbon Hydrogen Industry. Our project, Hydro-E Blocks, aims to track and certify green 
+            hydrogen and CO2 emissions. We're currently seeking specific use cases to run pilot projects that 
+            demonstrate how blockchain can provide a cost-effective and sustainable solution for the hydrogen industry.</p>
         </div>
         <br />     
         <div className='flex flex-col items-center'>

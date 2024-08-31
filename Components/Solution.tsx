@@ -8,8 +8,8 @@ import Image from 'next/image';
 const Solution= () => {
   return (
     <section id='process'>
-    <div className='py-20' >
-            <h6 className='heading py-10'>
+    <div className='py-20 h-auto' >
+            <h6 className='heading pb-10'>
             <span className='text-purple'> Solution</span>
             </h6>
             <div className='w-full mt-12 grid lg:grid-cols-4 grid-cols-1 gap-10'>

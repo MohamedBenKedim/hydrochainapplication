@@ -7,8 +7,8 @@ import LogoDione from "@/public/LogoDione.png";
 
 const Partners = () => {
   return (
-    <div>
-        <div className='py-20 gap-6' id='partners'>
+    <section id='partners'>
+        <div className='py-20 gap-6 h-auto'>
             <h1 className='heading'>
                 <span className='text-purple'>Hydro-E Blocks Solution</span>
             </h1> <br />
@@ -30,7 +30,7 @@ const Partners = () => {
             </div> */}
         </div>
 
-    </div>
+    </section>
   )
 }
 

@@ -20,10 +20,10 @@ const Hero = () => {
                     words='Innovative Blockchain & AI Solution for low Carbon Hydrogen'
                 />
                 <p className='text-center md:-tracking-wider mb:4 text-sm md:text-lg lg:text-2xl'>Hydro-E Blocks : Building a sustainable future through blockchain</p>
-                <a href="#about">
+                <a href="#about" className='pt-5'>
                     <MagicButton 
                     title='Explore'
-                    icon={<FaLocationArrow/>}
+                    icon={<FaLocationArrow />}
                     />
                 </a>
             </div>

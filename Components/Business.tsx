@@ -32,7 +32,7 @@ const FeatureCard: React.FC<FeatureCardProps> = ({ icon, title, content, index,}
 
 const Business = () => {
   return (
-    <div className='py-20'>
+    <div className='h-auto'>
         <h6 className='heading' id='business' >
                 Our 
         <span className='text-purple'> Services</span>
@@ -45,7 +45,7 @@ const Business = () => {
             <p className={`${styles.paragraph} max-w-[470px] mt-5`}>
             Streamline the verification and allocation of low-carbon hydrogen credits using blockchain technology.
             </p>
-            <a href="/services">
+            <a href="/services" className='pt-5'>
             <MagicButton 
                     title='Learn more'
                     icon={<FaLocationArrow/>}
