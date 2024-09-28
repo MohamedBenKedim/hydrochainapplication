@@ -1,5 +1,5 @@
 "use client";
-import { useState } from 'react';
+import React, { useState, FormEvent } from 'react';
 
 export default function RequestPitchdeck() {
   const [email, setEmail] = useState('');
@@ -11,7 +11,7 @@ export default function RequestPitchdeck() {
   const [loading, setLoading] = useState(false);
   const [success, setSuccess] = useState(false);
 
-  const handleSubmit = async (e) => {
+  const handleSubmit = async (e: FormEvent<HTMLFormElement>) => {
     e.preventDefault();
     setLoading(true);
 
