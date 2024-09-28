@@ -37,8 +37,9 @@ const about = [
 ]
 
 const solution = [
-  { name: 'Whitepaper', description: "Hydro-E Blocks Whitepaper", href: '/whitepaper', icon: DocumentTextIcon },
-  { name: 'Pitch deck', description: "Hydro-E Blocks Pitch deck", href: '/whitepaper', icon:  DocumentDuplicateIcon},
+  { name: 'Lightpaper', description: "Hydro-E Blocks Whitepaper", href: '/LightPaper-Draft.pdf', icon: DocumentTextIcon },
+  { name: 'Pitch deck Partnership', description: "Hydro-E Blocks Pitch deck", href: '/Hydro-EBlocks-Pitch_DeckPartnership.pdf', icon:  DocumentDuplicateIcon},
+  { name: 'Pitch deck Investment', description: "Hydro-E Blocks Pitch deck", href: '/Hydro-EBlocks-Pitch_DeckInvestment.pdf',target:"_blank",rel:"noopener noreferrer", icon:  DocumentDuplicateIcon},
 
 ]
 
